@@ -1,0 +1,13 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables
+        Una variable es una forma de almacenar algo para usar más tarde, es decir, es como guardar algo dentro una caja y luego poder usarlo.
+	* Strings
+        String es un tipo de dato, es un bloque de texto que será definido siempre entre comillas, ya sea simple o doble. 
+	* Funciones (argumentos, `return`)
+        Las funciones son similares a un procedimiento donde podremos pasarle argumentos que se utilizarán dentro de la función y luego se podrá retornar.
+        La declaración return lo utilizamos cuando queremos devolver algo que se ejecuta en la función, es como la única forma de que los datos puedan escapar.
+	* Declaraciones `if`
+        La declaración if se utiliza para poder tomar una desión, es decir, si vamos por un camino o por otro.
+	* Valores booleanos (`true`, `false`)
+        Los valores booleanos provienen de la lógica de boole. Significa que tendremos solo dos opciones y en JavaScript es Verdadero o Falso.
