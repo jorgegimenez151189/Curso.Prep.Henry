@@ -169,20 +169,36 @@ function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
-
+  if (typeof valor === 'boolean') {
+    switch (valor) {
+      case true: return "Soy verdadero";
+      case false: return "Soy falso";
+    }
+  }
 }
 
 function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  
+  var arreglo = [];
+  for (var i = 0; i < 11; i++) {
+    arreglo.push (i * 6);
+  }
+  return arreglo;
 }
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  
+  var digito;
+  if (numero % 1 === 0) {
+    var digito = numero.toString().length;
+    if (digito === 3) {
+      return true; 
+    }else
+    return false;
+  }
 }
 
 function doWhile(numero) {
